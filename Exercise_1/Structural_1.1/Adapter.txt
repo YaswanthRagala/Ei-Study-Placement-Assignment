@@ -1,0 +1,15 @@
+Adapter Pattern: Allows incompatible interfaces to work together.
+
+Adapter Pattern - Media Player
+Description: A media player that can play different types of media formats (like MP3 and VLC). We will create an adapter for the VLC player to make it compatible with the media player interface.
+
+
+MediaPlayer.java: Defines the target interface for media playback.
+
+AudioPlayer.java: Implements the target interface and plays MP3 files directly while using an adapter for VLC files.
+
+VLCPlayer.java: Represents the adaptee with its own specific interface.
+
+VLCPlayerAdapter.java: Adapts the VLC player to the media player interface.
+
+Main.java: Demonstrates the functionality of the media player using the adapter.
