@@ -1,7 +1,19 @@
-Observer Pattern:
+Observer Pattern
+Description:
+The Observer Pattern is a behavioral design pattern that allows an object (the subject) to notify multiple dependent objects (observers) about changes in its state, promoting loose coupling.
 
-Key Concepts:
-Observer interface for followers.
-Subject interface for the social media account (or any observable).
-Concrete implementations of observers (e.g., followers) and subjects (e.g., social media account).
-Observers (followers) are notified whenever the subject (account) updates, such as posting new content.
+Use Case:
+In a social media application, when a user makes a new post, all their followers are automatically notified, allowing them to stay updated without needing to check for new content manually.
+
+Observer Interface:
+
+Purpose: Defines a method for observers to receive updates about new content from the subject.
+Follower Class:
+
+Purpose: Implements the Observer interface and represents a follower who can receive notifications about new posts. Each follower has a name and processes notifications when updates occur.
+Subject Interface:
+
+Purpose: Defines methods for managing observers, including adding, removing, and notifying observers about new events.
+SocialMediaAccount Class:
+
+Purpose: Implements the Subject interface. It maintains a list of followers and handles the logic for adding/removing observers and notifying them when a new post is made.
