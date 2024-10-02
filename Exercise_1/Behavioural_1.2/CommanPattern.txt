@@ -1,0 +1,18 @@
+Command Pattern
+Description:
+The Command Pattern encapsulates requests as objects, allowing for decoupled command execution.
+
+Use Case:
+In a smart home, commands control devices (like lights) through command objects, enabling easy execution and management.
+
+Command Interface: Defines the execute method for all commands.
+
+Light Class: Represents the actual light device with methods to turn it on and off.
+
+LightOnCommand Class: Implements the Command interface to turn the light on.
+
+LightOffCommand Class: Implements the Command interface to turn the light off.
+
+RemoteControl Class: Invokes commands, managing their execution.
+
+Main Class: Demonstrates command usage by linking commands to the remote control and executing them.
