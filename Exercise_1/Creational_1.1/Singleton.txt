@@ -1,0 +1,8 @@
+Singleton Pattern: Ensures that a class has only one instance and provides a global access point to it.
+
+Singleton Pattern - Configuration Manager
+Description: A ConfigurationManager that manages application settings. 
+It ensures that only one instance of the configuration exists throughout the application.
+
+ConfigurationManager.java: Implements the Singleton pattern to provide a single point of access for configuration settings.
+Main.java: Demonstrates the usage of the ConfigurationManager to show that multiple calls return the same instance.
