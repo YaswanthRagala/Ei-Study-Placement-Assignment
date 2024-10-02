@@ -1,0 +1,7 @@
+Observer Pattern:
+
+Key Concepts:
+Observer interface for followers.
+Subject interface for the social media account (or any observable).
+Concrete implementations of observers (e.g., followers) and subjects (e.g., social media account).
+Observers (followers) are notified whenever the subject (account) updates, such as posting new content.
