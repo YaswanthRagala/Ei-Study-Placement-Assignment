@@ -1,0 +1,10 @@
+Factory Method Pattern: Provides an interface for creating objects in a superclass but
+ allows subclasses to alter the type of objects that will be created.
+
+Description: A NotificationFactory that generates different types of notifications 
+(like EmailNotification and SMSNotification) based on user preferences.
+
+Notification.java: Defines a common interface for all notifications.
+EmailNotification.java and SMSNotification.java: Concrete implementations of the notification interface.
+NotificationFactory.java: Abstract class defining the factory method for creating notifications.
+Main.java: Demonstrates the usage of the factory pattern to create different types of notifications.
