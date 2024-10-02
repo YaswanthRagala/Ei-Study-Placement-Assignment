@@ -1,0 +1,12 @@
+Decorator Pattern: Adds new functionality to an object dynamically without altering its structure.
+
+Decorator Pattern - Coffee Shop
+Description: A coffee shop that sells various types of coffee,and we want to add additional
+features (like Milk and Sugar) to coffee dynamically using decorators.
+
+Decorator Use Case:
+Coffee.java: Defines the component interface for coffee.
+BasicCoffee.java: A concrete implementation of the coffee interface.
+CoffeeDecorator.java: Abstract base class for decorators that implements the coffee interface.
+MilkDecorator.java and SugarDecorator.java: Concrete decorators that add functionality to the coffee.
+Main.java: Demonstrates the decorator pattern by dynamically adding features to a basic coffee.
